@@ -8,6 +8,17 @@ typedef vector<LL> vi;
  
  
 void solve(){
+	int k,n; cin >> n >>k;
+	int a[105] = {};
+	int increasing = 1;
+	for (int i = 1; i<= n; i++)
+	{
+		cin >> a[i];
+		if( a[i-1]>a[i]) increasing = 0;
+	}
+	int ans = 1;
+	cout << ( k!=1 || increasing ? "YES": "NO")<< '\n';
+
 
 
 	
