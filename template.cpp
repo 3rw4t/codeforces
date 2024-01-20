@@ -4,6 +4,7 @@ typedef long long LL;
 typedef vector<int> vi;
  
 void solve(){
+	//test123
 	int n; 
 	cin >> n;
 	int ans[3] = {};
